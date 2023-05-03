@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: external-secrets-operator
+  namespace: openshift-operators
+spec:
+  sourceNamespace: openshift-operators
+  source: community-operators
+  channel: stable
+  installPlanApproval: Automatic
+  name: external-secrets-operator
