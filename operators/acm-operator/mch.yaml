@@ -25,3 +25,9 @@ spec:
         name: search	
       - enabled: true	
         name: app-lifecycle
+      - enabled: true	
+        name: cluster-permission	
+      - enabled: true	
+        name: multicluster-observability	
+      - enabled: true	
+        name: submariner-addon
